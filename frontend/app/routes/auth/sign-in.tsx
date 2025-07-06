@@ -67,15 +67,16 @@ const SignIn = () => {
                 Sign In
               </Button>
 
-              <CardFooter>
+             
+            </form>
+          </Form>
+           <CardFooter className='flex items-center justify-center mt-6'>
                 <div className="flex items-center justify-center">
                   <p className='text-sm text-muted-foreground'>
                     Don&apos;t have an account? {" "}<Link to='/sign-up' >Sign Up</Link>
                   </p>
                 </div>
               </CardFooter>
-            </form>
-          </Form>
         </CardContent>
       </Card>
     </div>
